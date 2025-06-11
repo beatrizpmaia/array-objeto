@@ -6,7 +6,14 @@ let pessoa = {
     genero: 'F', 
     altura: 1.65,
     dataNascimento: '25/06/1993',
-    endereco: 'Rua 01, Casa 02, Messejana, Fortaleza, Ceará',
+    
+    endereco: {
+        rua: 1,
+        numero: 2,
+        bairro: 'Messejana',
+        cidade: 'Fortaleza',
+        estado: 'Ceará',
+    },
 
     adicionar: function () {
         console.log('Adicionando ...')
